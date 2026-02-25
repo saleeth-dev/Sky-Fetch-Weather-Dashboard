@@ -6,11 +6,11 @@ body {
     padding: 20px;
 }
 
-.weather-container {
+.container {
     background: white;
     padding: 25px;
     border-radius: 12px;
-    width: 500px;
+    width: 600px;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
@@ -23,6 +23,7 @@ input {
 button {
     padding: 8px 12px;
     cursor: pointer;
+    margin: 3px;
 }
 
 .loading {
@@ -32,6 +33,14 @@ button {
 
 .error {
     color: red;
+}
+
+#recentSearches button {
+    margin: 4px;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 .forecast-container {
@@ -46,7 +55,7 @@ button {
     padding: 10px;
     margin: 5px;
     border-radius: 8px;
-    width: 90px;
+    width: 100px;
     text-align: center;
 }
 
