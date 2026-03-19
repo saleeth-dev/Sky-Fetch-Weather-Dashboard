@@ -5,7 +5,6 @@ const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${a
 
 axios.get(url)
     .then(function(response) {
-
         const data = response.data;
 
         const cityName = data.name;
